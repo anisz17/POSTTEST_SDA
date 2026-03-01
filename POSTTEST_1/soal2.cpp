@@ -23,6 +23,9 @@ int main()
         cin >> mhs[i].nim;
         cout << "Masukkan IPK Anda: ";
         cin >> mhs[i].ipk;
+
+        cin.ignore();
+        cout << endl;
     }
 
     int tertinggi = 0;
@@ -33,7 +36,6 @@ int main()
             tertinggi = i;
         }
     }
-    cout << endl;
     cout << "-------------------------------------------------------" << endl;
     cout << "Mahasiswa dengan IPK tertinggi adalah: " << endl;
     cout << "Nama: " << mhs[tertinggi].nama << endl;
