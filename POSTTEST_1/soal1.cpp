@@ -75,4 +75,8 @@ Best Case  : O(n)
 Worst Case : O(n)
 
 Kedua fungsi sama-sama membentuk fungsi linier, di mana pangkat tertinggi dari n adalah 1.
+
+Nama: Annisa Nur Raidah
+NIM: 2509106078
+Kelas: B2'25
 */
