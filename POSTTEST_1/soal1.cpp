@@ -5,9 +5,8 @@ int findmin(int *arr, int n, int &indexmin)
 {
     int min = arr[0];
     indexmin = 0;
-    int n = 8;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         if (arr[i] < min)
         {
